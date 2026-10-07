@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# xsim v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Fri Aug 14 04:50:40 2026
+# Process ID         : 33168
+# Current directory  : reports/verification/fresh/xsim/p8_n1024_c4o4_b0
+# Command line       : xsim.exe -mode tcl -source {xsim.dir/tb_fact_p8_n1024_c4o4/xsim_script.tcl}
+# Log file           : reports/verification/fresh/xsim/p8_n1024_c4o4_b0/xsim.log
+# Journal file       : reports/verification/fresh/xsim/p8_n1024_c4o4_b0\xsim.jou
+# Running On         : Leopak
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : AMD Ryzen 7 H 255 w/ Radeon 780M Graphics      
+# CPU Frequency      : 3793 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 33580 MB
+# Swap memory        : 14495 MB
+# Total Virtual      : 48075 MB
+# Available Virtual  : 16459 MB
+#-----------------------------------------------------------
+source xsim.dir/tb_fact_p8_n1024_c4o4/xsim_script.tcl
+# xsim {tb_fact_p8_n1024_c4o4} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+unified_capability_regs PASS ip_id=FACT build_id=20260813 R=512 N=1024 L=16 cout_max=4 precision=8 exact_linear=1
+int8_axi_wstrb_semantics PASS
+int8_valid_task PASS preload=1 repeat_start=0 wall_cycles=3608 core_compute_cycles=3280 preload_est=10240 readout_est=4096
+tb_ntt46_fact_lean_ip_unified_axi_lite_core PASS R=512 N=1024 L=16 Cin=4 Cout=4 Nh=31 bound=128 wall_cycles=3608 core_compute_cycles=3280 preload_est=10240 readout_est=4096
+$finish called at time : 88578 ns : File "./tb/tb_ntt46_fact_lean_ip_unified_axi_lite_core.sv" Line 780
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:20 . Memory (MB): peak = 207.152 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 42988 KB (Peak: 42988 KB), Simulation CPU Usage: 20296 ms
+INFO: [Common 17-206] Exiting xsim at Fri Aug 14 04:51:03 2026...

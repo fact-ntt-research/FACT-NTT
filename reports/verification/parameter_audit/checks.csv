@@ -1,0 +1,183 @@
+domain,check,status,detail,evidence
+p254,prime,PASS,p=254977,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,pseudo_mersenne_c,PASS,"PSEUDO_C=7167, expected 2^18-p=7167",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,mu_reference,PASS,"MREC_MU=269512, floor(2^(2*DATA_W)/p)=269512; active arith packages use pseudo-Mersenne folding",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,j_inverse,PASS,J*J_INV mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,j_square_minus_one,PASS,"J^2 mod p=254976, p-1=254976",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,inv2,PASS,2*INV2 mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,inv4,PASS,4*INV4 mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_order_128,PASS,"omega=206308, omega^N=1, omega^(N/2)=254976",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_inverse_128,PASS,omega*omega_inv mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,ninv_128,PASS,N*NINV mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_order_256,PASS,"omega=111243, omega^N=1, omega^(N/2)=254976",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_inverse_256,PASS,omega*omega_inv mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,ninv_256,PASS,N*NINV mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_order_512,PASS,"omega=79479, omega^N=1, omega^(N/2)=254976",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_inverse_512,PASS,omega*omega_inv mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,ninv_512,PASS,N*NINV mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_order_1024,PASS,"omega=236176, omega^N=1, omega^(N/2)=254976",rtl/p254/ntt46_mrec_params_pkg.sv
+p254,omega_inverse_1024,PASS,omega*omega_inv mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,ninv_1024,PASS,N*NINV mod p=1,rtl/p254/ntt46_mrec_params_pkg.sv
+p254,rom_manifest_exists,PASS,files=63,rom/p254/zest_schedule/zest_radix24_manifest.json
+p254,twiddle_fwd_r128_l4,PASS,"depth=40, expected_depth=40",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r128_l4.mem
+p254,twiddle_inv_r128_l4,PASS,"depth=40, expected_depth=40",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r128_l4.mem
+p254,twiddle_inv_coset_r128_l4,PASS,"depth=40, expected_depth=40",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r128_l4.mem
+p254,fact_psi_word4_r128_l4,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_word4_r128_l4.mem
+p254,fact_psi_inv_word4_r128_l4,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_inv_word4_r128_l4.mem
+p254,fact_psi_word8_r128_l4,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_word8_r128_l4.mem
+p254,fact_psi_inv_word8_r128_l4,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_inv_word8_r128_l4.mem
+p254,twiddle_fwd_r128_l8,PASS,"depth=20, expected_depth=20",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r128_l8.mem
+p254,twiddle_inv_r128_l8,PASS,"depth=20, expected_depth=20",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r128_l8.mem
+p254,twiddle_inv_coset_r128_l8,PASS,"depth=20, expected_depth=20",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r128_l8.mem
+p254,fact_psi_word8_r128_l8,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_word8_r128_l8.mem
+p254,fact_psi_inv_word8_r128_l8,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_inv_word8_r128_l8.mem
+p254,fact_psi_word16_r128_l8,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_word16_r128_l8.mem
+p254,fact_psi_inv_word16_r128_l8,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_inv_word16_r128_l8.mem
+p254,twiddle_fwd_r128_l16,PASS,"depth=10, expected_depth=10",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r128.mem
+p254,twiddle_inv_r128_l16,PASS,"depth=10, expected_depth=10",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r128.mem
+p254,twiddle_inv_coset_r128_l16,PASS,"depth=10, expected_depth=10",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r128.mem
+p254,fact_psi_word16_r128_l16,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_word16_r128.mem
+p254,fact_psi_inv_word16_r128_l16,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_inv_word16_r128.mem
+p254,fact_psi_word32_r128_l16,PASS,"depth=4, expected_depth=4",rom/p254/fact/fact_psi_word32_r128.mem
+p254,fact_psi_inv_word32_r128_l16,PASS,"depth=4, expected_depth=4",rom/p254/fact/fact_psi_inv_word32_r128.mem
+p254,twiddle_fwd_r256_l4,PASS,"depth=64, expected_depth=64",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r256_l4.mem
+p254,twiddle_inv_r256_l4,PASS,"depth=64, expected_depth=64",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r256_l4.mem
+p254,twiddle_inv_coset_r256_l4,PASS,"depth=64, expected_depth=64",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r256_l4.mem
+p254,fact_psi_word4_r256_l4,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_word4_r256_l4.mem
+p254,fact_psi_inv_word4_r256_l4,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_inv_word4_r256_l4.mem
+p254,fact_psi_word8_r256_l4,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_word8_r256_l4.mem
+p254,fact_psi_inv_word8_r256_l4,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_inv_word8_r256_l4.mem
+p254,twiddle_fwd_r256_l8,PASS,"depth=32, expected_depth=32",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r256_l8.mem
+p254,twiddle_inv_r256_l8,PASS,"depth=32, expected_depth=32",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r256_l8.mem
+p254,twiddle_inv_coset_r256_l8,PASS,"depth=32, expected_depth=32",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r256_l8.mem
+p254,fact_psi_word8_r256_l8,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_word8_r256_l8.mem
+p254,fact_psi_inv_word8_r256_l8,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_inv_word8_r256_l8.mem
+p254,fact_psi_word16_r256_l8,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_word16_r256_l8.mem
+p254,fact_psi_inv_word16_r256_l8,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_inv_word16_r256_l8.mem
+p254,twiddle_fwd_r256_l16,PASS,"depth=16, expected_depth=16",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r256.mem
+p254,twiddle_inv_r256_l16,PASS,"depth=16, expected_depth=16",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r256.mem
+p254,twiddle_inv_coset_r256_l16,PASS,"depth=16, expected_depth=16",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r256.mem
+p254,fact_psi_word16_r256_l16,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_word16_r256.mem
+p254,fact_psi_inv_word16_r256_l16,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_inv_word16_r256.mem
+p254,fact_psi_word32_r256_l16,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_word32_r256.mem
+p254,fact_psi_inv_word32_r256_l16,PASS,"depth=8, expected_depth=8",rom/p254/fact/fact_psi_inv_word32_r256.mem
+p254,twiddle_fwd_r512_l4,PASS,"depth=192, expected_depth=192",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r512_l4.mem
+p254,twiddle_inv_r512_l4,PASS,"depth=192, expected_depth=192",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r512_l4.mem
+p254,twiddle_inv_coset_r512_l4,PASS,"depth=192, expected_depth=192",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r512_l4.mem
+p254,fact_psi_word4_r512_l4,PASS,"depth=128, expected_depth=128",rom/p254/fact/fact_psi_word4_r512_l4.mem
+p254,fact_psi_inv_word4_r512_l4,PASS,"depth=128, expected_depth=128",rom/p254/fact/fact_psi_inv_word4_r512_l4.mem
+p254,fact_psi_word8_r512_l4,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_word8_r512_l4.mem
+p254,fact_psi_inv_word8_r512_l4,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_inv_word8_r512_l4.mem
+p254,twiddle_fwd_r512_l8,PASS,"depth=96, expected_depth=96",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r512_l8.mem
+p254,twiddle_inv_r512_l8,PASS,"depth=96, expected_depth=96",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r512_l8.mem
+p254,twiddle_inv_coset_r512_l8,PASS,"depth=96, expected_depth=96",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r512_l8.mem
+p254,fact_psi_word8_r512_l8,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_word8_r512_l8.mem
+p254,fact_psi_inv_word8_r512_l8,PASS,"depth=64, expected_depth=64",rom/p254/fact/fact_psi_inv_word8_r512_l8.mem
+p254,fact_psi_word16_r512_l8,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_word16_r512_l8.mem
+p254,fact_psi_inv_word16_r512_l8,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_inv_word16_r512_l8.mem
+p254,twiddle_fwd_r512_l16,PASS,"depth=48, expected_depth=48",rom/p254/zest_schedule/zest_radix24_twiddle_fwd_r512.mem
+p254,twiddle_inv_r512_l16,PASS,"depth=48, expected_depth=48",rom/p254/zest_schedule/zest_radix24_twiddle_inv_r512.mem
+p254,twiddle_inv_coset_r512_l16,PASS,"depth=48, expected_depth=48",rom/p254/zest_schedule/zest_radix24_twiddle_inv_coset_r512.mem
+p254,fact_psi_word16_r512_l16,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_word16_r512.mem
+p254,fact_psi_inv_word16_r512_l16,PASS,"depth=32, expected_depth=32",rom/p254/fact/fact_psi_inv_word16_r512.mem
+p254,fact_psi_word32_r512_l16,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_word32_r512.mem
+p254,fact_psi_inv_word32_r512_l16,PASS,"depth=16, expected_depth=16",rom/p254/fact/fact_psi_inv_word32_r512.mem
+p520,prime,PASS,p=520193,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,pseudo_mersenne_c,PASS,"PSEUDO_C=4095, expected 2^19-p=4095",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,mu_reference,INFO,"MREC_MU=528487, floor(2^(2*DATA_W)/p)=528415; active arith packages use pseudo-Mersenne folding",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,j_inverse,PASS,J*J_INV mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,j_square_minus_one,PASS,"J^2 mod p=520192, p-1=520192",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,inv2,PASS,2*INV2 mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,inv4,PASS,4*INV4 mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_order_128,PASS,"omega=277844, omega^N=1, omega^(N/2)=520192",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_inverse_128,PASS,omega*omega_inv mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,ninv_128,PASS,N*NINV mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_order_256,PASS,"omega=133361, omega^N=1, omega^(N/2)=520192",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_inverse_256,PASS,omega*omega_inv mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,ninv_256,PASS,N*NINV mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_order_512,PASS,"omega=115000, omega^N=1, omega^(N/2)=520192",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_inverse_512,PASS,omega*omega_inv mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,ninv_512,PASS,N*NINV mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_order_1024,PASS,"omega=421701, omega^N=1, omega^(N/2)=520192",rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,omega_inverse_1024,PASS,omega*omega_inv mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,ninv_1024,PASS,N*NINV mod p=1,rtl/p520/p520_ntt46_mrec_params_pkg.sv
+p520,rom_manifest_exists,PASS,files=63,rom/p520/zest_schedule/zest_radix24_manifest.json
+p520,twiddle_fwd_r128_l4,PASS,"depth=40, expected_depth=40",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r128_l4.mem
+p520,twiddle_inv_r128_l4,PASS,"depth=40, expected_depth=40",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r128_l4.mem
+p520,twiddle_inv_coset_r128_l4,PASS,"depth=40, expected_depth=40",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r128_l4.mem
+p520,fact_psi_word4_r128_l4,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_word4_r128_l4.mem
+p520,fact_psi_inv_word4_r128_l4,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_inv_word4_r128_l4.mem
+p520,fact_psi_word8_r128_l4,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_word8_r128_l4.mem
+p520,fact_psi_inv_word8_r128_l4,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_inv_word8_r128_l4.mem
+p520,twiddle_fwd_r128_l8,PASS,"depth=20, expected_depth=20",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r128_l8.mem
+p520,twiddle_inv_r128_l8,PASS,"depth=20, expected_depth=20",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r128_l8.mem
+p520,twiddle_inv_coset_r128_l8,PASS,"depth=20, expected_depth=20",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r128_l8.mem
+p520,fact_psi_word8_r128_l8,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_word8_r128_l8.mem
+p520,fact_psi_inv_word8_r128_l8,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_inv_word8_r128_l8.mem
+p520,fact_psi_word16_r128_l8,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_word16_r128_l8.mem
+p520,fact_psi_inv_word16_r128_l8,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_inv_word16_r128_l8.mem
+p520,twiddle_fwd_r128_l16,PASS,"depth=10, expected_depth=10",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r128.mem
+p520,twiddle_inv_r128_l16,PASS,"depth=10, expected_depth=10",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r128.mem
+p520,twiddle_inv_coset_r128_l16,PASS,"depth=10, expected_depth=10",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r128.mem
+p520,fact_psi_word16_r128_l16,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_word16_r128.mem
+p520,fact_psi_inv_word16_r128_l16,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_inv_word16_r128.mem
+p520,fact_psi_word32_r128_l16,PASS,"depth=4, expected_depth=4",rom/p520/fact/fact_psi_word32_r128.mem
+p520,fact_psi_inv_word32_r128_l16,PASS,"depth=4, expected_depth=4",rom/p520/fact/fact_psi_inv_word32_r128.mem
+p520,twiddle_fwd_r256_l4,PASS,"depth=64, expected_depth=64",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r256_l4.mem
+p520,twiddle_inv_r256_l4,PASS,"depth=64, expected_depth=64",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r256_l4.mem
+p520,twiddle_inv_coset_r256_l4,PASS,"depth=64, expected_depth=64",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r256_l4.mem
+p520,fact_psi_word4_r256_l4,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_word4_r256_l4.mem
+p520,fact_psi_inv_word4_r256_l4,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_inv_word4_r256_l4.mem
+p520,fact_psi_word8_r256_l4,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_word8_r256_l4.mem
+p520,fact_psi_inv_word8_r256_l4,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_inv_word8_r256_l4.mem
+p520,twiddle_fwd_r256_l8,PASS,"depth=32, expected_depth=32",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r256_l8.mem
+p520,twiddle_inv_r256_l8,PASS,"depth=32, expected_depth=32",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r256_l8.mem
+p520,twiddle_inv_coset_r256_l8,PASS,"depth=32, expected_depth=32",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r256_l8.mem
+p520,fact_psi_word8_r256_l8,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_word8_r256_l8.mem
+p520,fact_psi_inv_word8_r256_l8,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_inv_word8_r256_l8.mem
+p520,fact_psi_word16_r256_l8,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_word16_r256_l8.mem
+p520,fact_psi_inv_word16_r256_l8,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_inv_word16_r256_l8.mem
+p520,twiddle_fwd_r256_l16,PASS,"depth=16, expected_depth=16",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r256.mem
+p520,twiddle_inv_r256_l16,PASS,"depth=16, expected_depth=16",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r256.mem
+p520,twiddle_inv_coset_r256_l16,PASS,"depth=16, expected_depth=16",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r256.mem
+p520,fact_psi_word16_r256_l16,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_word16_r256.mem
+p520,fact_psi_inv_word16_r256_l16,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_inv_word16_r256.mem
+p520,fact_psi_word32_r256_l16,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_word32_r256.mem
+p520,fact_psi_inv_word32_r256_l16,PASS,"depth=8, expected_depth=8",rom/p520/fact/fact_psi_inv_word32_r256.mem
+p520,twiddle_fwd_r512_l4,PASS,"depth=192, expected_depth=192",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r512_l4.mem
+p520,twiddle_inv_r512_l4,PASS,"depth=192, expected_depth=192",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r512_l4.mem
+p520,twiddle_inv_coset_r512_l4,PASS,"depth=192, expected_depth=192",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r512_l4.mem
+p520,fact_psi_word4_r512_l4,PASS,"depth=128, expected_depth=128",rom/p520/fact/fact_psi_word4_r512_l4.mem
+p520,fact_psi_inv_word4_r512_l4,PASS,"depth=128, expected_depth=128",rom/p520/fact/fact_psi_inv_word4_r512_l4.mem
+p520,fact_psi_word8_r512_l4,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_word8_r512_l4.mem
+p520,fact_psi_inv_word8_r512_l4,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_inv_word8_r512_l4.mem
+p520,twiddle_fwd_r512_l8,PASS,"depth=96, expected_depth=96",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r512_l8.mem
+p520,twiddle_inv_r512_l8,PASS,"depth=96, expected_depth=96",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r512_l8.mem
+p520,twiddle_inv_coset_r512_l8,PASS,"depth=96, expected_depth=96",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r512_l8.mem
+p520,fact_psi_word8_r512_l8,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_word8_r512_l8.mem
+p520,fact_psi_inv_word8_r512_l8,PASS,"depth=64, expected_depth=64",rom/p520/fact/fact_psi_inv_word8_r512_l8.mem
+p520,fact_psi_word16_r512_l8,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_word16_r512_l8.mem
+p520,fact_psi_inv_word16_r512_l8,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_inv_word16_r512_l8.mem
+p520,twiddle_fwd_r512_l16,PASS,"depth=48, expected_depth=48",rom/p520/zest_schedule/zest_radix24_twiddle_fwd_r512.mem
+p520,twiddle_inv_r512_l16,PASS,"depth=48, expected_depth=48",rom/p520/zest_schedule/zest_radix24_twiddle_inv_r512.mem
+p520,twiddle_inv_coset_r512_l16,PASS,"depth=48, expected_depth=48",rom/p520/zest_schedule/zest_radix24_twiddle_inv_coset_r512.mem
+p520,fact_psi_word16_r512_l16,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_word16_r512.mem
+p520,fact_psi_inv_word16_r512_l16,PASS,"depth=32, expected_depth=32",rom/p520/fact/fact_psi_inv_word16_r512.mem
+p520,fact_psi_word32_r512_l16,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_word32_r512.mem
+p520,fact_psi_inv_word32_r512_l16,PASS,"depth=16, expected_depth=16",rom/p520/fact/fact_psi_inv_word32_r512.mem
+INT8_CRT,p2_inv_mod_p1,PASS,P2*inv mod P1=1,rtl/common/ntt46_fact_ip_v1_crt2_reconstruct.sv
+INT8_CRT,p1_inv_mod_p2,PASS,P1*inv mod P2=1,rtl/common/ntt46_fact_ip_v1_crt2_reconstruct.sv
+INT8_CRT,crt_signed_samples,PASS,samples=7,rtl/common/ntt46_fact_ip_v1_crt2_reconstruct.sv
+INT8_PUBLIC,parallel_core_p1_prime,PASS,"RTL=520193, package=520193",rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,parallel_core_p2_prime,PASS,"RTL=254977, package=254977",rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,one_p520_residue_engine,PASS,instances=1,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,one_p254_residue_engine,PASS,instances=1,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,output_pipeline_reaches_both_residue_engines,PASS,connections=2,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,output_pipeline_controls_generate_branch,PASS,registered and combinational CRT branches are parameter-selected,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,registered_prime_crt_present,PASS,pipelined CRT instance found,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,combinational_prime_crt_present,PASS,combinational CRT instance found,rtl/unified/ntt46_fact_lean_ip_int8_parallel_prime_core.sv
+INT8_PUBLIC,public_wrapper_selects_documented_readout,PASS,public wrapper selects combinational native-read CRT,rtl/unified/ntt46_fact_lean_ip_int8_axi_lite_core.sv
+INT8_PUBLIC,public_wrapper_instantiates_parallel_core,PASS,parallel two-prime core is the only INT8 datapath,rtl/unified/ntt46_fact_lean_ip_int8_axi_lite_core.sv
+INT8_PUBLIC,unified_top_maps_precision_8,PASS,PRECISION=8 maps to the public INT8 wrapper,rtl/unified/ntt46_fact_lean_ip_unified_axi_lite_core.sv
+INT8_PUBLIC,capability_prime_registers_match,PASS,AXI-Lite capability registers expose the compiled prime set,rtl/unified/ntt46_fact_lean_ip_int8_axi_lite_core.sv
+INT8_PUBLIC,single_public_int8_architecture,PASS,historical-mode tokens=0,rtl/unified

@@ -1,0 +1,40 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<REDACTED_PATH>/rtl/ntt46_direct_spatial_conv_baseline.sv" into library work
+INFO: [VRFC 10-311] analyzing module ntt46_direct_spatial_conv_baseline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<REDACTED_PATH>/rtl/ntt46_direct_spatial_serial_baseline.sv" into library work
+INFO: [VRFC 10-311] analyzing module ntt46_direct_spatial_serial_baseline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<REDACTED_PATH>/rtl/ntt46_direct_spatial_parpipe_baseline.sv" into library work
+INFO: [VRFC 10-311] analyzing module ntt46_direct_spatial_parpipe_baseline
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "<REDACTED_PATH>/tb/tb_ntt46_direct_spatial_conv_baseline.sv" into library work
+INFO: [VRFC 10-311] analyzing module tb_ntt46_direct_spatial_conv_baseline
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: D:/vivado2024.2/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe tb_ntt46_direct_spatial_conv_baseline -generic_top NX=256 -generic_top PAR=4 -generic_top DUT_SERIAL=0 -generic_top DUT_PARPIPE=1 -generic_top DUT_DEBUG=0 -generic_top DUT_CIN_MAX=4 -generic_top DATA_W=8 -generic_top DUT_SINGLE_CASE=1 -generic_top DUT_SINGLE_CIN=4 -s tb_direct_spatial_nx256_int8_c4 
+Multi-threading is on. Using 14 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.ntt46_direct_spatial_parpipe_bas...
+Compiling module work.tb_ntt46_direct_spatial_conv_bas...
+Built simulation snapshot tb_direct_spatial_nx256_int8_c4
+
+****** xsim v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Tue Aug 11 19:33:35 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source xsim.dir/tb_direct_spatial_nx256_int8_c4/xsim_script.tcl
+# xsim {tb_direct_spatial_nx256_int8_c4} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+DIRECT PASS NX=256 PAR=4 pid=0 nh=255 cin=4 cycles=34816
+tb_ntt46_direct_spatial_conv_baseline PASS NX=256 N=512 PAR=4 serial=0 parpipe=1 cases=1 single=1 cin1=0 cin2=0 cin4=34816
+$finish called at time : 147514 ns : File "<REDACTED_PATH>/tb/tb_ntt46_direct_spatial_conv_baseline.sv" Line 329
+exit
+INFO: [Common 17-206] Exiting xsim at Tue Aug 11 19:33:39 2026...

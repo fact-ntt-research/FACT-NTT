@@ -1,0 +1,1 @@
+PASS workload=4x4_int8_fir_filter_bank outputs=4096 mismatches=0

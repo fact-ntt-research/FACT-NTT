@@ -1,0 +1,36 @@
+
+
+****** xsim v2024.2 (64-bit)
+
+  **** SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+
+  **** Start of session at: Fri Aug 14 04:41:43 2026
+
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+
+source xsim.dir/tb_zero_n1024_int8_c4o4/xsim_script.tcl
+
+# xsim {tb_zero_n1024_int8_c4o4} -autoloadwcfg -runall
+
+Time resolution is 1 ps
+
+run -all
+
+tb_ntt46_zero_pad_radix2_unified_baseline PASS N=1024 precision=8 Cin=4 Cout=4 cycles=1339440
+
+$finish called at time : 5431452 ns : File "<ARTIFACT_ROOT>/tb/tb_ntt46_zero_pad_radix2_unified_baseline.sv" Line 143
+
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 194.652 ; gain = 0.000
+
+exit
+
+INFO: [Common 17-206] Exiting xsim at Fri Aug 14 04:41:52 2026...
+

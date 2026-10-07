@@ -1,0 +1,110 @@
+PASS N=1024 INT4 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c1o1.csv
+
+PASS N=1024 INT4 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c1o2.csv
+
+PASS N=1024 INT4 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c1o4.csv
+
+PASS N=1024 INT4 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c2o1.csv
+
+PASS N=1024 INT4 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c2o2.csv
+
+PASS N=1024 INT4 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c2o4.csv
+
+PASS N=1024 INT4 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c4o1.csv
+
+PASS N=1024 INT4 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c4o2.csv
+
+PASS N=1024 INT4 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int4_c4o4.csv
+
+PASS N=1024 INT8 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c1o1.csv
+
+PASS N=1024 INT8 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c1o2.csv
+
+PASS N=1024 INT8 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c1o4.csv
+
+PASS N=1024 INT8 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c2o1.csv
+
+PASS N=1024 INT8 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c2o2.csv
+
+PASS N=1024 INT8 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c2o4.csv
+
+PASS N=1024 INT8 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c4o1.csv
+
+PASS N=1024 INT8 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c4o2.csv
+
+PASS N=1024 INT8 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n1024_int8_c4o4.csv
+
+PASS N=256 INT4 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c1o1.csv
+
+PASS N=256 INT4 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c1o2.csv
+
+PASS N=256 INT4 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c1o4.csv
+
+PASS N=256 INT4 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c2o1.csv
+
+PASS N=256 INT4 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c2o2.csv
+
+PASS N=256 INT4 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c2o4.csv
+
+PASS N=256 INT4 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c4o1.csv
+
+PASS N=256 INT4 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c4o2.csv
+
+PASS N=256 INT4 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int4_c4o4.csv
+
+PASS N=256 INT8 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c1o1.csv
+
+PASS N=256 INT8 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c1o2.csv
+
+PASS N=256 INT8 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c1o4.csv
+
+PASS N=256 INT8 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c2o1.csv
+
+PASS N=256 INT8 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c2o2.csv
+
+PASS N=256 INT8 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c2o4.csv
+
+PASS N=256 INT8 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c4o1.csv
+
+PASS N=256 INT8 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c4o2.csv
+
+PASS N=256 INT8 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n256_int8_c4o4.csv
+
+PASS N=512 INT4 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c1o1.csv
+
+PASS N=512 INT4 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c1o2.csv
+
+PASS N=512 INT4 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c1o4.csv
+
+PASS N=512 INT4 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c2o1.csv
+
+PASS N=512 INT4 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c2o2.csv
+
+PASS N=512 INT4 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c2o4.csv
+
+PASS N=512 INT4 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c4o1.csv
+
+PASS N=512 INT4 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c4o2.csv
+
+PASS N=512 INT4 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int4_c4o4.csv
+
+PASS N=512 INT8 Cin=1 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c1o1.csv
+
+PASS N=512 INT8 Cin=1 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c1o2.csv
+
+PASS N=512 INT8 Cin=1 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c1o4.csv
+
+PASS N=512 INT8 Cin=2 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c2o1.csv
+
+PASS N=512 INT8 Cin=2 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c2o2.csv
+
+PASS N=512 INT8 Cin=2 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c2o4.csv
+
+PASS N=512 INT8 Cin=4 Cout=1 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c4o1.csv
+
+PASS N=512 INT8 Cin=4 Cout=2 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c4o2.csv
+
+PASS N=512 INT8 Cin=4 Cout=4 <ARTIFACT_ROOT>/baselines/zero_pad/full/vectors_n512_int8_c4o4.csv
+
+PASS files=54 independent_direct_convolution=pointwise
+

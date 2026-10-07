@@ -1,0 +1,1115 @@
+===== BEGIN p4_n256_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh1_c1o1_pat6 =====
+
+===== BEGIN p4_n256_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh1_c1o2_pat6 =====
+
+===== BEGIN p4_n256_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh1_c1o4_pat6 =====
+
+===== BEGIN p4_n256_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh1_c2o1_pat6 =====
+
+===== BEGIN p4_n256_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh1_c2o2_pat6 =====
+
+===== BEGIN p4_n256_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh1_c2o4_pat6 =====
+
+===== BEGIN p4_n256_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh1_c4o1_pat6 =====
+
+===== BEGIN p4_n256_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh1_c4o2_pat6 =====
+
+===== BEGIN p4_n256_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh1_c4o4_pat6 =====
+
+===== BEGIN p4_n256_nh64_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh64_c1o1_pat6 =====
+
+===== BEGIN p4_n256_nh64_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh64_c1o2_pat6 =====
+
+===== BEGIN p4_n256_nh64_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh64_c1o4_pat6 =====
+
+===== BEGIN p4_n256_nh64_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh64_c2o1_pat6 =====
+
+===== BEGIN p4_n256_nh64_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh64_c2o2_pat6 =====
+
+===== BEGIN p4_n256_nh64_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh64_c2o4_pat6 =====
+
+===== BEGIN p4_n256_nh64_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh64_c4o1_pat6 =====
+
+===== BEGIN p4_n256_nh64_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh64_c4o2_pat6 =====
+
+===== BEGIN p4_n256_nh64_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh64_c4o4_pat6 =====
+
+===== BEGIN p4_n256_nh127_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh127_c1o1_pat6 =====
+
+===== BEGIN p4_n256_nh127_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh127_c1o2_pat6 =====
+
+===== BEGIN p4_n256_nh127_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c1o4_pat6 =====
+
+===== BEGIN p4_n256_nh127_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh127_c2o1_pat6 =====
+
+===== BEGIN p4_n256_nh127_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh127_c2o2_pat6 =====
+
+===== BEGIN p4_n256_nh127_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c2o4_pat6 =====
+
+===== BEGIN p4_n256_nh127_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p4_n256_nh127_c4o1_pat6 =====
+
+===== BEGIN p4_n256_nh127_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n256_nh127_c4o2_pat6 =====
+
+===== BEGIN p4_n256_nh127_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c4o4_pat6 =====
+
+===== BEGIN p4_n256_nh127_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c4o4_pat1 =====
+
+===== BEGIN p4_n256_nh127_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c4o4_pat2 =====
+
+===== BEGIN p4_n256_nh127_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c4o4_pat3 =====
+
+===== BEGIN p4_n256_nh127_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n256_nh127_c4o4_pat5 =====
+
+===== BEGIN p4_n512_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh1_c1o1_pat6 =====
+
+===== BEGIN p4_n512_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh1_c1o2_pat6 =====
+
+===== BEGIN p4_n512_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh1_c1o4_pat6 =====
+
+===== BEGIN p4_n512_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh1_c2o1_pat6 =====
+
+===== BEGIN p4_n512_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh1_c2o2_pat6 =====
+
+===== BEGIN p4_n512_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh1_c2o4_pat6 =====
+
+===== BEGIN p4_n512_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh1_c4o1_pat6 =====
+
+===== BEGIN p4_n512_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh1_c4o2_pat6 =====
+
+===== BEGIN p4_n512_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh1_c4o4_pat6 =====
+
+===== BEGIN p4_n512_nh128_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh128_c1o1_pat6 =====
+
+===== BEGIN p4_n512_nh128_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh128_c1o2_pat6 =====
+
+===== BEGIN p4_n512_nh128_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh128_c1o4_pat6 =====
+
+===== BEGIN p4_n512_nh128_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh128_c2o1_pat6 =====
+
+===== BEGIN p4_n512_nh128_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh128_c2o2_pat6 =====
+
+===== BEGIN p4_n512_nh128_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh128_c2o4_pat6 =====
+
+===== BEGIN p4_n512_nh128_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh128_c4o1_pat6 =====
+
+===== BEGIN p4_n512_nh128_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh128_c4o2_pat6 =====
+
+===== BEGIN p4_n512_nh128_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh128_c4o4_pat6 =====
+
+===== BEGIN p4_n512_nh255_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh255_c1o1_pat6 =====
+
+===== BEGIN p4_n512_nh255_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh255_c1o2_pat6 =====
+
+===== BEGIN p4_n512_nh255_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c1o4_pat6 =====
+
+===== BEGIN p4_n512_nh255_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh255_c2o1_pat6 =====
+
+===== BEGIN p4_n512_nh255_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh255_c2o2_pat6 =====
+
+===== BEGIN p4_n512_nh255_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c2o4_pat6 =====
+
+===== BEGIN p4_n512_nh255_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p4_n512_nh255_c4o1_pat6 =====
+
+===== BEGIN p4_n512_nh255_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n512_nh255_c4o2_pat6 =====
+
+===== BEGIN p4_n512_nh255_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c4o4_pat6 =====
+
+===== BEGIN p4_n512_nh255_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c4o4_pat1 =====
+
+===== BEGIN p4_n512_nh255_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c4o4_pat2 =====
+
+===== BEGIN p4_n512_nh255_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c4o4_pat3 =====
+
+===== BEGIN p4_n512_nh255_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n512_nh255_c4o4_pat5 =====
+
+===== BEGIN p4_n1024_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh1_c1o1_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh1_c1o2_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh1_c1o4_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh1_c2o1_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh1_c2o2_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh1_c2o4_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh1_c4o1_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh1_c4o2_pat6 =====
+
+===== BEGIN p4_n1024_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh1_c4o4_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh256_c1o1_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh256_c1o2_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh256_c1o4_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh256_c2o1_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh256_c2o2_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh256_c2o4_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh256_c4o1_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh256_c4o2_pat6 =====
+
+===== BEGIN p4_n1024_nh256_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh256_c4o4_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh511_c1o1_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh511_c1o2_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c1o4_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh511_c2o1_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh511_c2o2_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c2o4_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p4_n1024_nh511_c4o1_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p4_n1024_nh511_c4o2_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c4o4_pat6 =====
+
+===== BEGIN p4_n1024_nh511_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c4o4_pat1 =====
+
+===== BEGIN p4_n1024_nh511_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c4o4_pat2 =====
+
+===== BEGIN p4_n1024_nh511_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c4o4_pat3 =====
+
+===== BEGIN p4_n1024_nh511_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p4_n1024_nh511_c4o4_pat5 =====
+
+===== BEGIN p8_n256_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh1_c1o1_pat6 =====
+
+===== BEGIN p8_n256_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh1_c1o2_pat6 =====
+
+===== BEGIN p8_n256_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh1_c1o4_pat6 =====
+
+===== BEGIN p8_n256_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh1_c2o1_pat6 =====
+
+===== BEGIN p8_n256_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh1_c2o2_pat6 =====
+
+===== BEGIN p8_n256_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh1_c2o4_pat6 =====
+
+===== BEGIN p8_n256_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh1_c4o1_pat6 =====
+
+===== BEGIN p8_n256_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh1_c4o2_pat6 =====
+
+===== BEGIN p8_n256_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh1_c4o4_pat6 =====
+
+===== BEGIN p8_n256_nh64_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh64_c1o1_pat6 =====
+
+===== BEGIN p8_n256_nh64_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh64_c1o2_pat6 =====
+
+===== BEGIN p8_n256_nh64_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh64_c1o4_pat6 =====
+
+===== BEGIN p8_n256_nh64_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh64_c2o1_pat6 =====
+
+===== BEGIN p8_n256_nh64_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh64_c2o2_pat6 =====
+
+===== BEGIN p8_n256_nh64_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh64_c2o4_pat6 =====
+
+===== BEGIN p8_n256_nh64_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh64_c4o1_pat6 =====
+
+===== BEGIN p8_n256_nh64_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh64_c4o2_pat6 =====
+
+===== BEGIN p8_n256_nh64_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh64_c4o4_pat6 =====
+
+===== BEGIN p8_n256_nh127_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh127_c1o1_pat6 =====
+
+===== BEGIN p8_n256_nh127_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh127_c1o2_pat6 =====
+
+===== BEGIN p8_n256_nh127_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c1o4_pat6 =====
+
+===== BEGIN p8_n256_nh127_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh127_c2o1_pat6 =====
+
+===== BEGIN p8_n256_nh127_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh127_c2o2_pat6 =====
+
+===== BEGIN p8_n256_nh127_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c2o4_pat6 =====
+
+===== BEGIN p8_n256_nh127_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=256 actual=256 mismatches=0
+===== END p8_n256_nh127_c4o1_pat6 =====
+
+===== BEGIN p8_n256_nh127_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n256_nh127_c4o2_pat6 =====
+
+===== BEGIN p8_n256_nh127_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c4o4_pat6 =====
+
+===== BEGIN p8_n256_nh127_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c4o4_pat1 =====
+
+===== BEGIN p8_n256_nh127_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c4o4_pat2 =====
+
+===== BEGIN p8_n256_nh127_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c4o4_pat3 =====
+
+===== BEGIN p8_n256_nh127_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n256_nh127_c4o4_pat5 =====
+
+===== BEGIN p8_n512_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh1_c1o1_pat6 =====
+
+===== BEGIN p8_n512_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh1_c1o2_pat6 =====
+
+===== BEGIN p8_n512_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh1_c1o4_pat6 =====
+
+===== BEGIN p8_n512_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh1_c2o1_pat6 =====
+
+===== BEGIN p8_n512_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh1_c2o2_pat6 =====
+
+===== BEGIN p8_n512_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh1_c2o4_pat6 =====
+
+===== BEGIN p8_n512_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh1_c4o1_pat6 =====
+
+===== BEGIN p8_n512_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh1_c4o2_pat6 =====
+
+===== BEGIN p8_n512_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh1_c4o4_pat6 =====
+
+===== BEGIN p8_n512_nh128_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh128_c1o1_pat6 =====
+
+===== BEGIN p8_n512_nh128_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh128_c1o2_pat6 =====
+
+===== BEGIN p8_n512_nh128_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh128_c1o4_pat6 =====
+
+===== BEGIN p8_n512_nh128_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh128_c2o1_pat6 =====
+
+===== BEGIN p8_n512_nh128_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh128_c2o2_pat6 =====
+
+===== BEGIN p8_n512_nh128_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh128_c2o4_pat6 =====
+
+===== BEGIN p8_n512_nh128_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh128_c4o1_pat6 =====
+
+===== BEGIN p8_n512_nh128_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh128_c4o2_pat6 =====
+
+===== BEGIN p8_n512_nh128_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh128_c4o4_pat6 =====
+
+===== BEGIN p8_n512_nh255_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh255_c1o1_pat6 =====
+
+===== BEGIN p8_n512_nh255_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh255_c1o2_pat6 =====
+
+===== BEGIN p8_n512_nh255_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c1o4_pat6 =====
+
+===== BEGIN p8_n512_nh255_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh255_c2o1_pat6 =====
+
+===== BEGIN p8_n512_nh255_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh255_c2o2_pat6 =====
+
+===== BEGIN p8_n512_nh255_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c2o4_pat6 =====
+
+===== BEGIN p8_n512_nh255_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=512 actual=512 mismatches=0
+===== END p8_n512_nh255_c4o1_pat6 =====
+
+===== BEGIN p8_n512_nh255_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n512_nh255_c4o2_pat6 =====
+
+===== BEGIN p8_n512_nh255_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c4o4_pat6 =====
+
+===== BEGIN p8_n512_nh255_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c4o4_pat1 =====
+
+===== BEGIN p8_n512_nh255_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c4o4_pat2 =====
+
+===== BEGIN p8_n512_nh255_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c4o4_pat3 =====
+
+===== BEGIN p8_n512_nh255_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n512_nh255_c4o4_pat5 =====
+
+===== BEGIN p8_n1024_nh1_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh1_c1o1_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh1_c1o2_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh1_c1o4_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh1_c2o1_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh1_c2o2_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh1_c2o4_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh1_c4o1_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh1_c4o2_pat6 =====
+
+===== BEGIN p8_n1024_nh1_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh1_c4o4_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh256_c1o1_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh256_c1o2_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh256_c1o4_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh256_c2o1_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh256_c2o2_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh256_c2o4_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh256_c4o1_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh256_c4o2_pat6 =====
+
+===== BEGIN p8_n1024_nh256_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh256_c4o4_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c1o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh511_c1o1_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c1o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh511_c1o2_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c1o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c1o4_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c2o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh511_c2o1_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c2o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh511_c2o2_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c2o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c2o4_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c4o1_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=1024 actual=1024 mismatches=0
+===== END p8_n1024_nh511_c4o1_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c4o2_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=2048 actual=2048 mismatches=0
+===== END p8_n1024_nh511_c4o2_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c4o4_pat6 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c4o4_pat6 =====
+
+===== BEGIN p8_n1024_nh511_c4o4_pat1 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c4o4_pat1 =====
+
+===== BEGIN p8_n1024_nh511_c4o4_pat2 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c4o4_pat2 =====
+
+===== BEGIN p8_n1024_nh511_c4o4_pat3 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c4o4_pat3 =====
+
+===== BEGIN p8_n1024_nh511_c4o4_pat5 =====
+FACT Lean-IP INT8 independent Python cross-check: PASS
+
+rows expected=4096 actual=4096 mismatches=0
+===== END p8_n1024_nh511_c4o4_pat5 =====

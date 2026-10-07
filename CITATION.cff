@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this artifact and its associated manuscript."
+title: "FACT-NTT: A Configurable FPGA IP for Exact Integer Linear Convolution"
+type: software
+authors:
+  - family-names: "Bai"
+    given-names: "Lingfeng"
+  - family-names: "Liu"
+    given-names: "Guoyang"
+license: Apache-2.0
+keywords:
+  - FPGA
+  - NTT
+  - exact convolution
+  - AXI-Lite
+  - RTL

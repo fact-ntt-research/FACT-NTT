@@ -1,0 +1,18 @@
+/build/
+/.Xil/
+*.jou
+*.log
+*.pb
+*.wdb
+*.dcp
+*.str
+*.xpr
+xsim.dir/
+__pycache__/
+*.pyc
+# Selected reports and formal logs are archived evidence.
+!/reports/**/
+!/reports/**
+
+# Simulator housekeeping directories are excluded even inside reports.
+/reports/**/xsim.dir/

@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-08",
+  "tool": "Vivado xsim 2024.2",
+  "kind": "fresh short simulation",
+  "precision": 4,
+  "N": 1024,
+  "Cin": 4,
+  "Cout": 1,
+  "Nh": 511,
+  "pattern": 6,
+  "core_cycles": 998,
+  "compared_coefficients": 1024,
+  "mismatches": 0,
+  "archived_output_coefficients_identical": true,
+  "synthesis_or_implementation_run": false
+}

@@ -1,0 +1,1394 @@
+{
+  "architecture": "K414721 FACT experimental mixed radix2/radix4 half transform",
+  "modulus": {
+    "k": 520193,
+    "data_w": 19,
+    "primitive_root": 3,
+    "roots": {
+      "128": 277844,
+      "256": 133361,
+      "512": 115000,
+      "1024": 421701
+    },
+    "inv_roots": {
+      "128": 285868,
+      "256": 257957,
+      "512": 8789,
+      "1024": 475157
+    },
+    "n_inv": {
+      "128": 516129,
+      "256": 518161,
+      "512": 519177,
+      "1024": 519685
+    },
+    "inv2": 260097
+  },
+  "lane_variants": [
+    16,
+    8,
+    4
+  ],
+  "packing": "lane-major, lane0 at least significant bits",
+  "files": {
+    "fwd_r512": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r512.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 48,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 32
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 40
+        }
+      ]
+    },
+    "inv_r512": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r512.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 48,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 32
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 40
+        }
+      ]
+    },
+    "inv_coset_r512": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r512.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 48,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 32
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 40
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word16_r512": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r512.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 32,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word32_r512": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word32_r512.mem",
+      "r": 512,
+      "lanes": 32,
+      "depth": 16,
+      "word_bits": 608,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r512": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r512.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 32,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word32_r512": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word32_r512.mem",
+      "r": 512,
+      "lanes": 32,
+      "depth": 16,
+      "word_bits": 608,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r512_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r512_l8.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 96,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 32,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 48
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 64
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 80
+        }
+      ]
+    },
+    "inv_r512_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r512_l8.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 96,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 32,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 48
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 64
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 80
+        }
+      ]
+    },
+    "inv_coset_r512_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r512_l8.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 96,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 32,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 48
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 64
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 80
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word8_r512_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r512_l8.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 64,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word16_r512_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r512_l8.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 32,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r512_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r512_l8.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 64,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r512_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r512_l8.mem",
+      "r": 512,
+      "lanes": 16,
+      "depth": 32,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r512_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r512_l4.mem",
+      "r": 512,
+      "lanes": 4,
+      "depth": 192,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 64,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 32,
+          "addr_base": 64
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 32,
+          "addr_base": 96
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 32,
+          "addr_base": 128
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 32,
+          "addr_base": 160
+        }
+      ]
+    },
+    "inv_r512_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r512_l4.mem",
+      "r": 512,
+      "lanes": 4,
+      "depth": 192,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 64,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 32,
+          "addr_base": 64
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 32,
+          "addr_base": 96
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 32,
+          "addr_base": 128
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 32,
+          "addr_base": 160
+        }
+      ]
+    },
+    "inv_coset_r512_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r512_l4.mem",
+      "r": 512,
+      "lanes": 4,
+      "depth": 192,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 512,
+          "batches": 64,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 256,
+          "batches": 32,
+          "addr_base": 64
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 64,
+          "batches": 32,
+          "addr_base": 96
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 16,
+          "batches": 32,
+          "addr_base": 128
+        },
+        {
+          "stage": 4,
+          "radix": 4,
+          "length": 4,
+          "batches": 32,
+          "addr_base": 160
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word4_r512_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word4_r512_l4.mem",
+      "r": 512,
+      "lanes": 4,
+      "depth": 128,
+      "word_bits": 76,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word8_r512_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r512_l4.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 64,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word4_r512_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word4_r512_l4.mem",
+      "r": 512,
+      "lanes": 4,
+      "depth": 128,
+      "word_bits": 76,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r512_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r512_l4.mem",
+      "r": 512,
+      "lanes": 8,
+      "depth": 64,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r256": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r256.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 12
+        }
+      ]
+    },
+    "inv_r256": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r256.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 12
+        }
+      ]
+    },
+    "inv_coset_r256": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r256.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 12
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word16_r256": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r256.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word32_r256": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word32_r256.mem",
+      "r": 256,
+      "lanes": 32,
+      "depth": 8,
+      "word_bits": 608,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r256": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r256.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word32_r256": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word32_r256.mem",
+      "r": 256,
+      "lanes": 32,
+      "depth": 8,
+      "word_bits": 608,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r256_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r256_l8.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 24
+        }
+      ]
+    },
+    "inv_r256_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r256_l8.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 24
+        }
+      ]
+    },
+    "inv_coset_r256_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r256_l8.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 24
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word8_r256_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r256_l8.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word16_r256_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r256_l8.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r256_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r256_l8.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r256_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r256_l8.mem",
+      "r": 256,
+      "lanes": 16,
+      "depth": 16,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r256_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r256_l4.mem",
+      "r": 256,
+      "lanes": 4,
+      "depth": 64,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 48
+        }
+      ]
+    },
+    "inv_r256_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r256_l4.mem",
+      "r": 256,
+      "lanes": 4,
+      "depth": 64,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 48
+        }
+      ]
+    },
+    "inv_coset_r256_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r256_l4.mem",
+      "r": 256,
+      "lanes": 4,
+      "depth": 64,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 4,
+          "length": 256,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 16,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 16,
+          "addr_base": 32
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 16,
+          "addr_base": 48
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word4_r256_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word4_r256_l4.mem",
+      "r": 256,
+      "lanes": 4,
+      "depth": 64,
+      "word_bits": 76,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word8_r256_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r256_l4.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word4_r256_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word4_r256_l4.mem",
+      "r": 256,
+      "lanes": 4,
+      "depth": 64,
+      "word_bits": 76,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r256_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r256_l4.mem",
+      "r": 256,
+      "lanes": 8,
+      "depth": 32,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r128": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r128.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 10,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 2,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 2,
+          "addr_base": 6
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 2,
+          "addr_base": 8
+        }
+      ]
+    },
+    "inv_r128": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r128.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 10,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 2,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 2,
+          "addr_base": 6
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 2,
+          "addr_base": 8
+        }
+      ]
+    },
+    "inv_coset_r128": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r128.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 10,
+      "word_bits": 912,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 4,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 2,
+          "addr_base": 4
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 2,
+          "addr_base": 6
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 2,
+          "addr_base": 8
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word16_r128": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r128.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 8,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word32_r128": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word32_r128.mem",
+      "r": 128,
+      "lanes": 32,
+      "depth": 4,
+      "word_bits": 608,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r128": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r128.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 8,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word32_r128": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word32_r128.mem",
+      "r": 128,
+      "lanes": 32,
+      "depth": 4,
+      "word_bits": 608,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r128_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r128_l8.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 20,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 12
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 16
+        }
+      ]
+    },
+    "inv_r128_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r128_l8.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 20,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 12
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 16
+        }
+      ]
+    },
+    "inv_coset_r128_l8": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r128_l8.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 20,
+      "word_bits": 456,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 8,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 4,
+          "addr_base": 8
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 4,
+          "addr_base": 12
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 4,
+          "addr_base": 16
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word8_r128_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r128_l8.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 16,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word16_r128_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word16_r128_l8.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 8,
+      "word_bits": 304,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r128_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r128_l8.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 16,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word16_r128_l8": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word16_r128_l8.mem",
+      "r": 128,
+      "lanes": 16,
+      "depth": 8,
+      "word_bits": 304,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fwd_r128_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_fwd_r128_l4.mem",
+      "r": 128,
+      "lanes": 4,
+      "depth": 40,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 32
+        }
+      ]
+    },
+    "inv_r128_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_r128_l4.mem",
+      "r": 128,
+      "lanes": 4,
+      "depth": 40,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 32
+        }
+      ]
+    },
+    "inv_coset_r128_l4": {
+      "path": "rom\\fact_k520193\\zest_schedule\\zest_radix24_twiddle_inv_coset_r128_l4.mem",
+      "r": 128,
+      "lanes": 4,
+      "depth": 40,
+      "word_bits": 228,
+      "stages": [
+        {
+          "stage": 0,
+          "radix": 2,
+          "length": 128,
+          "batches": 16,
+          "addr_base": 0
+        },
+        {
+          "stage": 1,
+          "radix": 4,
+          "length": 64,
+          "batches": 8,
+          "addr_base": 16
+        },
+        {
+          "stage": 2,
+          "radix": 4,
+          "length": 16,
+          "batches": 8,
+          "addr_base": 24
+        },
+        {
+          "stage": 3,
+          "radix": 4,
+          "length": 4,
+          "batches": 8,
+          "addr_base": 32
+        }
+      ],
+      "note": "inverse stage0 w1/w2/w3 are modified for FACT minus coset output untwist"
+    },
+    "fact_psi_word4_r128_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word4_r128_l4.mem",
+      "r": 128,
+      "lanes": 4,
+      "depth": 32,
+      "word_bits": 76,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_word8_r128_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_word8_r128_l4.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 16,
+      "word_bits": 152,
+      "note": "psi_N powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word4_r128_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word4_r128_l4.mem",
+      "r": 128,
+      "lanes": 4,
+      "depth": 32,
+      "word_bits": 76,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    },
+    "fact_psi_inv_word8_r128_l4": {
+      "path": "rom\\fact_k520193\\fact\\fact_psi_inv_word8_r128_l4.mem",
+      "r": 128,
+      "lanes": 8,
+      "depth": 16,
+      "word_bits": 152,
+      "note": "psi_N^-1 powers for FACT explicit twist/untwist, N=2R"
+    }
+  }
+}

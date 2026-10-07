@@ -1,0 +1,133 @@
+{
+  "scope": "Existing full-length N=1024 p520 comparator; only absolute ROM path prefixes normalized.",
+  "archived_route_source_manifest_available": false,
+  "note": "Source recovered from the retained comparator project. New smoke checks do not certify a byte-identical archived route.",
+  "files": [
+    {
+      "path": "rtl/fact_k520193_alias/ntt46_mrec_params_pkg.sv",
+      "original_sha256": "9dde9f1f21caa8ef9618f042837b9a89f473f47e768fed420cee5df793929920",
+      "distributed_sha256": "9dde9f1f21caa8ef9618f042837b9a89f473f47e768fed420cee5df793929920",
+      "change": "none"
+    },
+    {
+      "path": "rtl/fact_k520193_alias/ntt46_mrec_arith_pkg.sv",
+      "original_sha256": "8ef7a48fe352e4a39b637b48a42a0b28fac849a342147cf6961850275d2f880e",
+      "distributed_sha256": "8ef7a48fe352e4a39b637b48a42a0b28fac849a342147cf6961850275d2f880e",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_modmul_pipe.sv",
+      "original_sha256": "750b142a87b8bf146028cfed3167b4305dea04b958bac15ee1a0654cb81ff59f",
+      "distributed_sha256": "750b142a87b8bf146028cfed3167b4305dea04b958bac15ee1a0654cb81ff59f",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_modmul_j_pipe.sv",
+      "original_sha256": "58b3de8cef50fdd71efc06ac74d201379cf604fcba52083d2645726c739ddeeb",
+      "distributed_sha256": "58b3de8cef50fdd71efc06ac74d201379cf604fcba52083d2645726c739ddeeb",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_twiddle32_rom.sv",
+      "original_sha256": "602b48c464db1ed5fcfc6a9321cf13e688a3a93b6187adf360c09c17b4d382d1",
+      "distributed_sha256": "602b48c464db1ed5fcfc6a9321cf13e688a3a93b6187adf360c09c17b4d382d1",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_bfly_lane_pipe.sv",
+      "original_sha256": "174e0d04d0cbf5fb072220fc718315ce86899fe01bb90f33e7bdd493d07af4ba",
+      "distributed_sha256": "174e0d04d0cbf5fb072220fc718315ce86899fe01bb90f33e7bdd493d07af4ba",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_lane32_group.sv",
+      "original_sha256": "a324631c51e7801d3d5d281e50b5340f831d484f1d92e6d35e8970fb17e82b1a",
+      "distributed_sha256": "a324631c51e7801d3d5d281e50b5340f831d484f1d92e6d35e8970fb17e82b1a",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_step32_n1024.sv",
+      "original_sha256": "db569f7e6b5e4ced9eceef27b66507982ee757eb9010d635193cd28e8017f989",
+      "distributed_sha256": "5fd297114c33bc82cbb592b0e97f153ab7cab3aff038adbeb99fdcb25a18e93d",
+      "change": "ROM path prefix only"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_bidir_bfly_lane_pipe.sv",
+      "original_sha256": "f734415738cce809c890c9d32e0766a5099b1ba8c329d813bf8254c4e4a5f22c",
+      "distributed_sha256": "f734415738cce809c890c9d32e0766a5099b1ba8c329d813bf8254c4e4a5f22c",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_bidir_lane32_group.sv",
+      "original_sha256": "f36074af2d55de5bba8fe84cd8b4756591c8d095b4e0ceb29501a05a59093912",
+      "distributed_sha256": "f36074af2d55de5bba8fe84cd8b4756591c8d095b4e0ceb29501a05a59093912",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_bidir_step32_n1024.sv",
+      "original_sha256": "6a28ad606cdd7d72c854f808da156e107a3680d68259c30fd82c6c9728509877",
+      "distributed_sha256": "f2fde984bae743c089578bb8784cc1609847939d45804631b6fa37197a6fa5ca",
+      "change": "ROM path prefix only"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_slot32_store_sameaddr.sv",
+      "original_sha256": "7ce764b748551f50c91455072e5ba00ccdc9a9712faf6ed2f7e163dba507b6e1",
+      "distributed_sha256": "7ce764b748551f50c91455072e5ba00ccdc9a9712faf6ed2f7e163dba507b6e1",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_transpose_writer32_n1024.sv",
+      "original_sha256": "513ce8a39cffa4ea70ab4d675f32d9a2fbe6c31db1184469cceca922bcf074ff",
+      "distributed_sha256": "513ce8a39cffa4ea70ab4d675f32d9a2fbe6c31db1184469cceca922bcf074ff",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_forward_core_n1024.sv",
+      "original_sha256": "33e1c95225c62a08ab61d7470dc0c061e442748fb234b38a757fc94d8391f21e",
+      "distributed_sha256": "f4ba8ee0af1c2fd28e7b04303cf4a84b14443d6cc05402971426109b151071e3",
+      "change": "ROM path prefix only"
+    },
+    {
+      "path": "rtl/ntt46_mrec_radix4_bidir_core_n1024.sv",
+      "original_sha256": "21fbafd35b30019d595209a5d97b211ecdf919ad2486c703e2ef379c18d4368b",
+      "distributed_sha256": "76c80261b64c547ebf0607df6c4904b370dffbb5e494c03c801958701024b104",
+      "change": "ROM path prefix only"
+    },
+    {
+      "path": "rtl/ntt46_mrec_spectral_mac32_pipe.sv",
+      "original_sha256": "11d2dc215b04a423d21ee69c9bc943dd2aafa1d7044af6ee52081e0d15a4d494",
+      "distributed_sha256": "11d2dc215b04a423d21ee69c9bc943dd2aafa1d7044af6ee52081e0d15a4d494",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_direct_input_channel_store.sv",
+      "original_sha256": "764484105c5661a4de88deff37306056a14aa3db5e1998d7d1a92e34a77be4f1",
+      "distributed_sha256": "764484105c5661a4de88deff37306056a14aa3db5e1998d7d1a92e34a77be4f1",
+      "change": "none"
+    },
+    {
+      "path": "rtl/ntt46_mrec_word_store.sv",
+      "original_sha256": "11cf0e22431b344100c72f59f43441eabd3d699110ed59abd8f2c282254b72af",
+      "distributed_sha256": "11cf0e22431b344100c72f59f43441eabd3d699110ed59abd8f2c282254b72af",
+      "change": "none"
+    },
+    {
+      "path": "rtl/fact_baseline/ntt46_zero_pad_n1024_multicin_conv_tile.sv",
+      "original_sha256": "54286cecddd93da5bd984b4afd7269017ae1016a89b49cc1c8d0366ae0edf769",
+      "distributed_sha256": "02ebe3e5a4c24164685e4e8f3f2e021762ce3ba5448db39a88302294c526a037",
+      "change": "ROM path prefix only"
+    },
+    {
+      "path": "rtl/fact_baseline/ntt46_zero_pad_p520_n1024_local_core.sv",
+      "original_sha256": "8f2e55d4189773c6390149c41b6b9c017a0837d68f8ce8ca943feabc6a734149",
+      "distributed_sha256": "8f2e55d4189773c6390149c41b6b9c017a0837d68f8ce8ca943feabc6a734149",
+      "change": "none"
+    },
+    {
+      "path": "tb/fact_baseline/tb_ntt46_zero_pad_p520_n1024_local_core.sv",
+      "original_sha256": "6e5a6e9e11417a3749afe52a02cffbf4f91f084b0121e86b61d1743b078208bd",
+      "distributed_sha256": "6e5a6e9e11417a3749afe52a02cffbf4f91f084b0121e86b61d1743b078208bd",
+      "change": "none"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "architecture": "zero_padded_full_length_radix4_ntt_baseline",
+  "prime": 520193,
+  "n": 1024,
+  "omega": 421701,
+  "omega_inv": 475157,
+  "lanes": 32,
+  "data_w": 19,
+  "depth_per_direction": 40,
+  "word_bits": 1824,
+  "files": {
+    "twiddle_fwd_1024.mem": {
+      "sha256": "ad28568aaff87f63360124e0b0012b0525308936fed4cc54df91801e4c794c16"
+    },
+    "twiddle_inv_1024.mem": {
+      "sha256": "1730c3630ea302be310a78953276f437f0b8ca21a270565d2598772935d48d58"
+    }
+  }
+}

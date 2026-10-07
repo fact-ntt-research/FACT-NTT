@@ -1,0 +1,6 @@
+"Claim","Runs","Status","Failures","Scope"
+"Main RTL functional matrix","186","PASS","0","162 legal configuration tasks plus 24 boundary-pattern tasks"
+"Independent direct-convolution cross-check","186","PASS","0","Every exported output file"
+"AXI/native protocol checks","6","PASS","0","Invalid Nh/Cin/Cout, WSTRB, busy start, back-to-back, reset"
+"Complete zero-pad baseline RTL and Python checks","54","PASS","0","Matched baseline configurations"
+"Arithmetic and ROM audit","182","PASS","0","181 passes and 1 informational item"
